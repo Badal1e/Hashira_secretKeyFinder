@@ -62,7 +62,7 @@ function displaySecrets(results) {
 }
 
 function main() {
-    const testCaseFiles = ["test1.json", "test2.json"];
+    const testCaseFiles = ["input1.json", "input2.json"];
     const results = computeSecretsFromFiles(testCaseFiles);
     displaySecrets(results);
 }
